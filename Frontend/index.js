@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const response = await fetch('https://track-leetcode.onrender.com/jsQuestions');
 
             const responseText = await response.text();
-            console.log('Response text:', responseText);
+            //console.log('Response text:', responseText);
 
             const data = JSON.parse(responseText); 
 
