@@ -1,11 +1,26 @@
 # Track Leetcode
 
-This is the LeetCode Tracker application. It is used to track leetcode 30 days Javascript Questions. 
+This is the LeetCode Tracker application. It is used to track leetcode 30 days Javascript Questions.
 It uses Node.js, Express, and MongoDB to store and manage user data and web Scraped LeetCode JavaScript questions from [discussion form](https://leetcode.com/discuss/study-guide/3458761).
+
+### How to use this extension?
+
+![Steps To Follow](https://github.com/code2me/track-leetcode/blob/main/Assets/steps.gif?raw=true)
+
+#### Steps To Follow
+
+1. Enter this url : `chrome://extensions/` in Chrome Browser.
+2. Go to `Load unpacked`
+3. Go to location where you have cloned the repository and then select the folder named `Frontend`
+4. The `Frontend` folder will be loaded and you will see Extension named `Track Leetcode`
+
+> Now, Pin the extension and enjoy easy access to leetcode questions.
 
 ## Table of Contents
 
 - [Track Leetcode](#track-leetcode)
+    - [How to use this extension?](#how-to-use-this-extension)
+      - [Steps To Follow](#steps-to-follow)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -73,4 +88,5 @@ The following environment variables should be set in your .env file:
 This project is licensed under the MIT License.
 
 ## System Architecture
-![System Architecture](https://github.com/code2me/track-leetcode/blob/main/design.png?raw=true)
+
+![System Architecture](https://github.com/code2me/track-leetcode/blob/main/Assets/design.png?raw=true)
