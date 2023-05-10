@@ -16,6 +16,8 @@ It uses Node.js, Express, and MongoDB to store and manage user data and web Scra
 
 > Now, Pin the extension and enjoy easy access to leetcode questions.
 
+![Extension](https://github.com/code2me/track-leetcode/blob/main/Assets/extension.gif?raw=true)
+
 ## Table of Contents
 
 - [Track Leetcode](#track-leetcode)
