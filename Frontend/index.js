@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     async function updateCount(username) {
         try {
-            const response = await fetch('https://leetcode-backend-v2n3.onrender.com/username', {
+            const response = await fetch('https://track-leetcode.onrender.com/username', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // fetch recently added question added to leetcode post from backend
     async function fetchJsonObject() {
         try {
-            const response = await fetch('https://leetcode-backend-v2n3.onrender.com/jsQuestions');
+            const response = await fetch('https://track-leetcode.onrender.com/jsQuestions');
 
             const responseText = await response.text();
             console.log('Response text:', responseText);
