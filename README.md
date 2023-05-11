@@ -9,7 +9,7 @@ It uses Node.js, Express, and MongoDB to store and manage user data and web Scra
 
 #### Steps To Follow
 
-1. Enter this url : `chrome://extensions/` in Chrome Browser.
+1. Enter this url : `chrome://extensions/` in Chrome Browser and Enable the `DEVELOPER MODE`
 2. Go to `Load unpacked`
 3. Go to location where you have cloned the repository and then select the folder named `Frontend`
 4. The `Frontend` folder will be loaded and you will see Extension named `Track Leetcode`
